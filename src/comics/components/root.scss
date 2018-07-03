@@ -1,1 +1,14 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "~normalize.css/";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+a {
+  color: white;
+  &:link, &visites, &:hover, &:active{
+    color: white
+  }
+}
+
+p{
+  margin: 0;
+  padding: 0
+}
